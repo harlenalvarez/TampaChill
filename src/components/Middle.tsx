@@ -1,6 +1,6 @@
 import { Grid, Typography, SxProps } from '@mui/material'
 import { Parallax } from 'react-parallax'
-import IMG from './images/acunit.jpg'
+import IMG from './images/finance.webp'
 import { rootText } from './sharedSxProps'
 
 const parallaxStyle: SxProps = {
