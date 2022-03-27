@@ -34,7 +34,7 @@ export const TopBar = () => {
           <PositionedLogo>
             <Logo />
           </PositionedLogo>
-          <Link underline='none' component='button' color='black' href='tel:8134247049'>
+          <Link underline='none' color='black' href='tel:8134247049'>
             <Typography>813-424-7049</Typography>
           </Link>
         </Toolbar>
