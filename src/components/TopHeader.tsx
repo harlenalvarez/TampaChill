@@ -15,7 +15,7 @@ export const TopHeader = () => {
         <Typography variant='h3' align='center' color='white' sx={{flexGrow:1, ...rootText }}>
           Best AC service in the Tampa Bay Area
         </Typography>
-        <Typography variant='h6' align='center' color='white' sx={rootText}>
+        <Typography variant='h4' align='center' color='white' sx={rootText}>
           Hablamos español
         </Typography>
       </Grid>

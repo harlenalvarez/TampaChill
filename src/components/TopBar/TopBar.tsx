@@ -1,7 +1,8 @@
 import { AppBar, Container, Toolbar, Typography, Link,styled, SxProps } from '@mui/material';
 import { Logo } from '../logo/Logo';
 
-const logoPosition: SxProps = {
+const PositionedLogo = styled('div')({
+  // @ts-ignore
   display: 'flex',
   justifyContent: 'center',
   width: '55px',
@@ -14,8 +15,9 @@ const logoPosition: SxProps = {
   margin: '0 auto',
   boxShadow: 2,
   borderRadius: '50%'
-}
-const PositionedLogo = styled('div')();
+});
+
+
 export const TopBar = () => {
   return (
     <AppBar position="static" sx={{ bgcolor: 'white', color: 'black' }}>
@@ -29,7 +31,7 @@ export const TopBar = () => {
           >
             Tampa Chill
           </Typography>
-          <PositionedLogo sx={logoPosition}>
+          <PositionedLogo>
             <Logo />
           </PositionedLogo>
           <Link underline='none' component='button' color='black' href='tel:8134247049'>
