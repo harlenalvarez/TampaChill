@@ -1,4 +1,4 @@
-import { AppBar, Container, Toolbar, Typography, Link,styled, SxProps } from '@mui/material';
+import { AppBar, Container, Toolbar, Typography, Link,styled } from '@mui/material';
 import { Logo } from '../logo/Logo';
 
 const PositionedLogo = styled('div')({
