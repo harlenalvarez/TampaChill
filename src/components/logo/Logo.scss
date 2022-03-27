@@ -6,6 +6,10 @@ $widthHeight: 55px;
     overflow: hidden;
     filter: drop-shadow(0 0 10px white);
     border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
   }
   
   @function random_range($min, $max) {
