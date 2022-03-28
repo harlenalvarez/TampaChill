@@ -47,6 +47,11 @@ registerRoute(
       return false;
     }
 
+    //if is a google iframe
+    if(url.pathname.includes('maps/embed/v1/')) {
+      return false;
+    }
+
     // Return true to signal that we want to use the handler.
     return true;
   },
